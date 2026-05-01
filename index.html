@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertor de tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de tempo</h1>
+
+        <label for="valor a">Valor a converter:</label>
+        <input type="number" id="num" placeholder="Converter qual valor?">
+        <br><br>
+        
+        <button onclick="converters_m()">seg-min</button>
+        <button onclick="converters_h()">seg-h</button>
+        <button onclick="converterm_s()">min-seg</button>
+        <button onclick="converterm_h()">min-h</button>
+        <button onclick="converterh_s()">h/seg</button>
+        <button onclick="converterh_m()">h/min</button>
+        
+        <button onclick="limpar()">Limpar</button>
+
+    <h2 id="resultado"></h2>
+   
+    <script src="script.js"></script>
+</body>
+</html>
