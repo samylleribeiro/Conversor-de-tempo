@@ -9,17 +9,11 @@ function converters_m() {
         resultado.style.color = "red";
         return;
     }
-    // 3. verificar se o numero não e zero
-    if (num === 0) {
-         resultado.innerText = "Não e possível converter o 0! ❌";
-        resultado.style.color = "red";
-        return;
-    }
     // 3. Verificar a conversão
     let resultadoConversão = num/60;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
-   resultado.innerText = `${num} segundos equivale a ${resultadoConversão} minutos`;
+   resultado.innerText = `${num} segundos equivalem a ${resultadoConversão} minutos`;
   }
 
 
@@ -34,17 +28,11 @@ function converters_h() {
         resultado.style.color = "red";
         return;
     }
-    // 3. verificar se o numero não e zero
-    if (num === 0) {
-         resultado.innerText = "Não e possível converter o 0! ❌";
-        resultado.style.color = "red";
-        return;
-    }
     // 3. Verificar a conversão
     let resultadoConversão = num/3600;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
-   resultado.innerText = `${num} segundos equivale a ${resultadoConversão} horas`;
+   resultado.innerText = `${num} segundos equivalem a ${resultadoConversão} horas`;
   }
 
  
@@ -59,17 +47,12 @@ function converterm_s() {
         resultado.style.color = "red";
         return;
     }
-    // 3. verificar se o numero não e zero
-    if (num === 0) {
-         resultado.innerText = "Não e possível converter o 0! ❌";
-        resultado.style.color = "red";
-        return;
-    }
+   
     // 3. Verificar a conversão
     let resultadoConversão = num*60;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
-   resultado.innerText = `${num} minutos equivale a ${resultadoConversão} segundos`;
+   resultado.innerText = `${num} minutos equivalem a ${resultadoConversão} segundos`;
   } 
 
 
@@ -84,17 +67,12 @@ function converterm_h() {
         resultado.style.color = "red";
         return;
     }
-    // 3. verificar se o numero não e zero
-    if (num === 0) {
-         resultado.innerText = "Não e possível converter o 0! ❌";
-        resultado.style.color = "red";
-        return;
-    }
+    
     // 3. Verificar a conversão
     let resultadoConversão = num/60;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
-   resultado.innerText = `${num} minutos equivale a ${resultadoConversão} horas`;
+   resultado.innerText = `${num} minutos equivalem a ${resultadoConversão} horas`;
   } 
 
   function converterh_s() {
@@ -108,17 +86,12 @@ function converterm_h() {
         resultado.style.color = "red";
         return;
     }
-    // 3. verificar se o numero não e zero
-    if (num === 0) {
-         resultado.innerText = "Não e possível converter o 0! ❌";
-        resultado.style.color = "red";
-        return;
-    }
+    
     // 3. Verificar a conversão
     let resultadoConversão = num*3600;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
-   resultado.innerText = `${num} horas equivale a ${resultadoConversão} segundos`;
+   resultado.innerText = `${num} horas equivalem a ${resultadoConversão} segundos`;
   } 
 
 
@@ -133,17 +106,12 @@ function converterm_h() {
         resultado.style.color = "red";
         return;
     }
-    // 3. verificar se o numero não e zero
-    if (num === 0) {
-         resultado.innerText = "Não e possível converter o 0! ❌";
-        resultado.style.color = "red";
-        return;
-    }
+    
     // 3. Verificar a conversão
     let resultadoConversão = num*60;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
-   resultado.innerText = `${num} horas equivale a ${resultadoConversão} minutos`;
+   resultado.innerText = `${num} horas equivalem a ${resultadoConversão} minutos`;
   } 
 
   
